@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-            <div class="container" style="background-color:lightsalmon;">
+            <div class="container">
               <a class="navbar-brand w-75" href="#">
                   <img src="panda-commerce-master/images/logo.png" alt="">
               </a>
@@ -32,8 +32,10 @@
                       Products
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Shoes</a></li>
-                      <li><a class="dropdown-item" href="#">Bags</a></li>
+                      <li><a class="dropdown-item" href="#catagories">Catagories</a></li>
+                      <li><a class="dropdown-item" href="#shoes">Shoes</a></li>
+                      <li><a class="dropdown-item" href="#bags">Bags</a></li>
+                      <li><a class="dropdown-item" href="#watch">Watch</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -44,7 +46,7 @@
             </div>
           </nav>
           <!-- image slider -->
-        <section class="container mt-5 border rounded-3" style="background-color:lightgoldenrodyellow;">
+        <section class="container border rounded-3" style="background-color:lightgoldenrodyellow;padding-top:50px;">
             <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -57,7 +59,7 @@
                                 <span class="btn btn-warning rounded-3">Buy Now <i class="fas fa-arrow-right"></i></span>
                               </div>
                           </div>
-                          <div class="col-lg-5 pt-5">
+                          <div class="col-lg-5 pt-3">
                             <img src="panda-commerce-master/images/banner-images/headphone.png" class="d-block w-100" alt="">
                           </div>
                   </div>
@@ -72,7 +74,7 @@
                             <span class="btn btn-warning rounded-3">Buy Now <i class="fas fa-arrow-right"></i></span>
                           </div>
                       </div>
-                      <div class="col-lg-5 pt-5">
+                      <div class="col-lg-5 pt-3">
                         <img src="panda-commerce-master/images/banner-images/xbox.png" class="d-block w-100" alt="">
                       </div>
               </div>
@@ -87,7 +89,7 @@
                         <span class="btn btn-warning rounded-3">Buy Now <i class="fas fa-arrow-right"></i></span>
                       </div>
                   </div>
-                  <div class="col-lg-5 pt-5">
+                  <div class="col-lg-5 pt-3">
                     <img src="panda-commerce-master/images/banner-images/tvv.jpg" class="d-block w-100 bg-danger" alt="">
                   </div>
           </div>
@@ -95,10 +97,189 @@
               </div>
           </div>
         </section>
+        <br>
+        <br>
     </header>
     <main>
+       <!-- catagories -->
+       <section class="container my-5" id="catagories">
+        <h1 style="color:red;text-align: center;" class="fo">Catagories</h1><br><br>
+        <div class="row g-5 row-cols-lg-3 row-cols-md-2 row-cols-1">
+          <div class="col-lg-4 col-12">
+            <div style="background-color:yellowgreen;" class="p-3 border rounded-3 d-flex justify-content-between align-items-center">
+              <h1>Bags</h1>
+              <img style="width:120px; height:100px;" src="panda-commerce-master/images/categories/bag.png">
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div style="background-color:skyblue;" class="p-3 border rounded-3 d-flex justify-content-between align-items-center">
+              <h1>Watch</h1>
+              <img style="width:120px; height:100px;" src="panda-commerce-master/images/categories/watch.png">
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div style="background-color:lightsalmon;" class="p-3 border rounded-3 d-flex justify-content-between align-items-center">
+              <h1>Shoes</h1>
+              <img style="width:120px; height:100px;" src="panda-commerce-master/images/categories/shoes.png">
+            </div>
+          </div>
+        </div>
+       </section>
 
+       <!-- shoes -->
+       <section class="container" id="shoes">
+         <h1 style="color:red;text-align: center;" class="fo">Shoes</h1>
+         <br><br>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card border-0 shadow-lg h-100" style="background-color: rgba(103, 221, 156, 0.37);">
+              <img src="panda-commerce-master/images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title fo">Red Shoe</h3>
+                <h2 class="f1">$155</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="p-3">
+                <button class="btn btn-warning">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow-lg h-100" style="background-color: rgba(103, 221, 156, 0.37);">
+              <img src="panda-commerce-master/images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title fo">Gray Shoe</h3>
+                <h2 class="f1">$410</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="p-3">
+                <button class="btn btn-warning">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow-lg h-100" style="background-color: rgba(103, 221, 156, 0.37);">
+              <img src="panda-commerce-mast 0.37);er/images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title fo">Orange Shoe</h3>
+                <h2 class="f1">$120</h2>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="p-3">
+                <button class="btn btn-warning">Buy now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <br>
+       <!-- Bagssssssss -->
+       <section class="container mt-5" id="bags">
+        <h1 style="color:red;text-align: center;" class="fo">Bagpack</h1>
+        <br>
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+         <div class="col">
+           <div class="card border-0 shadow-lg h-100" style="background-color:rgba(233, 180, 174, 0.548)">
+             <img src="panda-commerce-master/images/bags/bag-1.png" class="card-img-top" alt="...">
+             <div class="card-body pt-5">
+               <h3 class="card-title fo">Red Bag</h3>
+               <h2 class="f1">$120</h2>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+             </div>
+             <div class="p-3">
+               <button class="btn btn-warning">Buy now</button>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card border-0 shadow-lg h-100" style="background-color:rgba(233, 180, 174, 0.548)">
+             <img src="panda-commerce-master/images/bags/bag-2.png" class="card-img-top" alt="...">
+             <div class="card-body pt-5">
+               <h3 class="card-title fo">Blue Bag</h3>
+               <h2 class="f1">$210</h2>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+             </div>
+             <div class="p-3">
+               <button class="btn btn-warning">Buy now</button>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card border-0 shadow-lg h-100" style="background-color:rgba(233, 180, 174, 0.548)">
+             <img src="panda-commerce-master/images/bags/bag-3.png" class="card-img-top" alt="...">
+             <div class="card-body pt-5">
+               <h3 class="card-title fo">Black Bag</h3>
+               <h2 class="f1">$310</h2>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+             </div>
+             <div class="p-3">
+               <button class="btn btn-warning">Buy now</button>
+             </div>
+           </div>
+         </div>
+       </div>
+      </section>
+      <br><br>
+       <!-- watch? -->
+      <section class="container" id="watch">
+        <h1 style="color:red;text-align: center;" class="fo">Watch</h1>
+        <br><br>
+       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+         <div class="col">
+           <div class="card border-0 shadow-lg h-100" style="background-color:rgba(96, 184, 238, 0.574)">
+             <img src="panda-commerce-master/images/watch/watch-1.webp" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h3 class="card-title fo">Quartez Watch</h3>
+               <h2 class="f1">$155</h2>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+             </div>
+             <div class="p-3">
+               <button class="btn btn-warning">Buy now</button>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card border-0 shadow-lg h-100" style="background-color:rgba(96, 184, 238, 0.574)">
+             <img src="panda-commerce-master/images/watch/watch-2.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h3 class="card-title fo">Ethos Watch</h3>
+               <h2 class="f1">$410</h2>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+             </div>
+             <div class="p-3">
+               <button class="btn btn-warning">Buy now</button>
+             </div>
+           </div>
+         </div>
+         <div class="col">
+           <div class="card border-0 shadow-lg h-100" style="background-color:rgba(96, 184, 238, 0.574)">
+             <img src="panda-commerce-master/images/watch/watch-3.jpeg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <h3 class="card-title fo">Rollex Watch</h3>
+               <h2 class="f1">$120</h2>
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+             </div>
+             <div class="p-3">
+               <button class="btn btn-warning">Buy now</button>
+             </div>
+           </div>
+         </div>
+       </div>
+      </section>
+      <br><br>
+      <section style="height: 300px;background-color:rgba(138, 81, 192, 0.616)" class="container d-flex justify-content-center align-items-center" >
+        <div style="text-align: center;">
+          <h1 class="fo">LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales specials and more</p>
+          <input type="email" name="" id="" placeholder="Enter Your Email"><br><br>
+          <button class="btn btn-warning">Subscribe</button>
+        </div>
+      </section>
+      <br>
     </main>
+    <footer style="text-align: center;color:red" class="foot">
+      <p>Copyright © 2022 influencer product</p>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
